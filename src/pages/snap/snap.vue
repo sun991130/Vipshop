@@ -1,6 +1,6 @@
 <template>
   <div>
-   <div>主页</div>
+    最后疯抢
   </div>
 </template>
 

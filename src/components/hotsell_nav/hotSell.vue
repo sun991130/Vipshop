@@ -61,7 +61,9 @@ import {mapState} from 'vuex'
       }
     },
     computed: {
-      ...mapState(['hotSell'])
+      ...mapState({
+        hotSell :state=> state.Hotsell.hotSell
+      })
     },
     mounted() {
       
